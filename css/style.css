@@ -15,6 +15,23 @@ body{
     max-width: 100vw;
 }
 
+/*Navbar*/
+
+#main-nav{
+    position: fixed;
+    top: 0;
+    right: 10px;
+}
+
+#main-nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
+
+/*Box*/
 
 .container{
     height: 100vh;
