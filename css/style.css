@@ -23,9 +23,8 @@ body{
     top: 0;
     right: 10px;
     z-index: 1;
-    box-shadow: 0, 0, 10 rgba(0,0,0,0.5);
+    padding: 20px;
     height: 100px;
-
 }
 
 #main-nav li{
@@ -39,6 +38,7 @@ body{
     height: 40px;
     line-height: 40px;
     text-align: center;
+    cursor: pointer;
 }
 
 #main-nav li a{
@@ -48,9 +48,10 @@ body{
 
 }
 
-#main-nav li a:hover{
-    text-decoration: none;
-    color: black;
+#main-nav li:hover{
+    transform: scale(1.1);
+
+
 
 }
 
@@ -61,7 +62,6 @@ body{
 .container{
     height: 100vh;
     width: 100%;
-    /* background-color: blueviolet; */
     border: black 1px solid;
     text-align: center;
     position: relative;
