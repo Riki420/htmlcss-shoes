@@ -22,21 +22,35 @@ body{
     position: fixed;
     top: 0;
     right: 10px;
+    z-index: 1;
+    box-shadow: 0, 0, 10 rgba(0,0,0,0.5);
+    height: 100px;
+
 }
 
 #main-nav li{
     list-style-type: none;
     display: inline-block;
-    padding: 25px;
     border-radius: 100px;
     background-color: rgb(225, 225, 225);
-    box-shadow: 0,0,20rgb(0, 0, 0);
     margin-right: 20px;
     margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
 }
 
 #main-nav li a{
     text-decoration: none;
+    color: black;
+    
+
+}
+
+#main-nav li a:hover{
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -50,8 +64,16 @@ body{
     /* background-color: blueviolet; */
     border: black 1px solid;
     text-align: center;
+    position: relative;
 }
 
+.container .pic-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
 
 
 #bg-back-1{
