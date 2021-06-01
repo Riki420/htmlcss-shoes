@@ -31,7 +31,7 @@ body{
     list-style-type: none;
     display: inline-block;
     border-radius: 100px;
-    background-color: rgb(225, 225, 225);
+    background-color: #fff;
     margin-right: 20px;
     margin-top: 20px;
     width: 40px;
@@ -43,7 +43,7 @@ body{
 
 #main-nav li a{
     text-decoration: none;
-    color: black;
+    color: #000;
     
 
 }
@@ -77,15 +77,18 @@ body{
 
 
 #bg-back-1{
-    background-color: forestgreen;
+    background-color: #228b22;
+    color: #ffff00;
 }
 
 #bg-back-2{
-    background-color: yellow;
+    background-color: #ffff00;
+    color: #228b22;
 }
 
 #bg-back-3{
-    background-color: red;
+    background-color: #ff0000;
+    color: #ffff00;
 }
 
 
