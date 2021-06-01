@@ -19,11 +19,23 @@ body{
 .container{
     height: 100vh;
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     border: black 1px solid;
+    text-align: center;
 }
 
 
 
+#bg-back-1{
+    background-color: forestgreen;
+}
+
+#bg-back-2{
+    background-color: yellow;
+}
+
+#bg-back-3{
+    background-color: red;
+}
 
 
